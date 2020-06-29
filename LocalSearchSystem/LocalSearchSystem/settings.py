@@ -81,9 +81,9 @@ WSGI_APPLICATION = 'LocalSearchSystem.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'pydb',
+        'NAME': 'systemdb',
         'USER': 'root',
-        'PASSWORD': 'Step@2020',
+        'PASSWORD': 'shresta@1995',
         'HOST': '127.0.0.1',
         'PORT': '3306'
 
