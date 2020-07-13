@@ -5,7 +5,7 @@ function searchResult() {
 }
 
 function fetchResults(searchQuery) {
-    const endpoint = `https://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=20&srsearch=${searchQuery}`;
+    const endpoint = `https://en.wikinews.org/w/api.php?action=query&list=search&prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=20&srsearch=${searchQuery}`;
   	fetch(endpoint)
   		.then(response => response.json())
   		.then(data => {
@@ -23,7 +23,7 @@ function displayResults(results) {
   searchResults.innerHTML = '';
   // Loop over results array
   results.forEach(result => {
-   const url = encodeURI(`https://en.wikipedia.org/wiki/${result.title}`);
+   const url = encodeURI(`https://en.wikinews.org/wiki/${result.title}`);
 
    searchResults.insertAdjacentHTML('beforeend',
       `<div class="resultItem">
