@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'wikinews',
         'USER': 'root',
-        'PASSWORD': 'Step@2020',
+        'PASSWORD': 'Django@2020',
         'HOST': '127.0.0.1',
         'PORT': '3306'
 
