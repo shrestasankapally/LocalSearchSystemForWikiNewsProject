@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Users',
+    'User',
     'WikiNews'
     
 ]
@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'wikinews',
         'USER': 'root',
-        'PASSWORD': 'Django@2020',
+        'PASSWORD': 'Step@2020',
         'HOST': '127.0.0.1',
         'PORT': '3306'
 
